@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import CameraCapture from './camera';
 
 function App() {
   return (
@@ -11,12 +12,14 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://localhost:5000"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
+        <h1 className="text-xl font-bold p-4">📸 Camera App</h1>
+          <CameraCapture/>
       </header>
     </div>
   );
